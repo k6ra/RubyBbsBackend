@@ -107,7 +107,8 @@ GEM
     nokogiri (1.13.10-x64-mingw32)
       racc (~> 1.4)
     public_suffix (4.0.1)
-    puma (3.12.6)
+    puma (5.6.7)
+      nio4r (~> 2.0)
     racc (1.7.1)
     rack (2.2.6.2)
     rack-proxy (0.6.5)
@@ -208,7 +209,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   jbuilder (~> 2.7)
   loofah (>= 2.3.1)
-  puma (~> 3.12)
+  puma (~> 5.6)
   rails (~> 6.0.0)
   sass-rails (~> 5)
   selenium-webdriver
